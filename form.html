@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .gender{
+           margin-left: 60px;
+        }
+        input[name="scooter" ]{
+            margin-left: 63px;
+        }
+        input[name="car" ]{
+            margin-left: 63px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>form</h1>
+    <form>
+        <label for="name">full name :</label>
+        <input type="text"><br><br>
+        <label for="password">password :</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label >gender :</label>
+        <input  type="radio" name="gender">male<br>
+        <input  class="gender" type="radio" name="gender">female<br>
+        <input  class="gender" type="radio" name="gender">other<br>
+
+        <p><b>Select as many subjects as you know</b></p>
+        <label>subjects :</label>
+        <input type="radio">hindi
+        <input type="radio">gujrati
+        <input type="radio">english
+        <input type="radio">tamil
+        <input type="radio">sanskrit<br><br>
+
+        <label>vehicle :</label>
+        <input type="checkbox">bike<br>
+        <input type="checkbox" name="car">car<br>
+        <input type="checkbox" name="scooter">scooter<br>
+
+        <label type="select">vehicle</label>
+        <select >
+            <option>car</option>
+            <option>scooter</option>
+            <option>bike</option>
+        </select>
+
+        <label type="select">vehicle</label>
+        <select size="2" >
+            <option>car</option>
+            <option>scooter</option>
+            <option>bike</option>
+        </select><br><br>
+
+        <h></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit labore unde esse nisi, adipisci aliquid distinctio accusantium aut tempora possimus aperiam tenetur nihil! Facilis est delectus minima? Illum, atque.</p>
+        <textarea name="messege" rows="10" cols="40"></textarea><br><br>
+
+        <button type="button" onclick="alert('hello world')">alert button</button><br><br><br>
+
+        <fieldset>
+            <legend>hello world</legend>
+            <label>name :</label>
+            <input type="text"><br><br>
+            <label>password :</label>
+            <input type="password"><br><br>
+        </fieldset><br><br>
+
+        <p>select browsers</p>
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="firefox"></option>
+            <option value="safari"></option>
+            <option value="opera"></option>
+            <option value="chrome"></option>
+        </datalist>
+    
+    </form>
+</body>
+</html>
